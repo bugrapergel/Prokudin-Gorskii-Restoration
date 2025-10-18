@@ -9,8 +9,8 @@ Proje, aşağıdaki temel hedefleri gerçekleştirmektedir:
 * **Görüntü Bölme ve Hizalama**: Tek bir gri tonlamalı görüntüyü BGR kanallarına ayırma ve bu kanalları hizalama.
 * **Metrik Kullanımı**: Hizalama için SSD (Sum of Squared Differences) ve NCC (Normalized Cross-Correlation) metriklerini uygulama.
 * **Görüntü İyileştirme**: Hizalanmış görüntünün kalitesini artırmak için Histogram Eşitleme ve Gama Düzeltme tekniklerini kullanma.
-* **Otomatik Kenar Kırpma (Bonus)**: Görüntü kenarlarındaki artifaktları otomatik olarak kırpma.
-* **Piramit Tabanlı Hizalama (Bonus)**: Daha büyük görüntülerde hizalama süresini azaltmak için piramit tabanlı algoritma uygulama.
+* **Otomatik Kenar Kırpma **: Görüntü kenarlarındaki artifaktları otomatik olarak kırpma.
+* **Piramit Tabanlı Hizalama **: Daha büyük görüntülerde hizalama süresini azaltmak için piramit tabanlı algoritma uygulama.
 
 ## Kurulum
 
@@ -29,4 +29,5 @@ Projeyi çalıştırmak için gerekli kütüphaneleri kurmanız gerekmektedir. P
     ```bash
     pip install numpy opencv-python matplotlib scikit-image pillow
     ```
+
 
